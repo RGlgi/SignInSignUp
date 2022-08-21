@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgb(191, 208, 205);
+}
+.SignUp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 25px;
+  font-size: 30px;
+  width: 30%;
+  height: 50%;
+  margin-bottom: 30px;
+  background-color: rgb(115, 115, 115);
+
+  visibility: hidden;
+}
+.SignIn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 25px;
+  font-size: 30px;
+  width: 30%;
+  height: 50%;
+  margin-bottom: 30px;
+  background-color: rgb(97, 96, 96);
+  visibility: hidden;
+}
+.welcomeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 25px;
+  font-size: 30px;
+  width: 30%;
+  height: 50%;
+  margin-bottom: 30px;
+  background-color: rgb(97, 96, 96);
+  visibility: hidden;
+}
+.buttonsContainer {
+  margin-top: 20%;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(115, 115, 115);
+}
+button {
+  border-radius: 2rem;
+  padding: 0 1.5rem;
+  font-size: 30px;
+  margin-left: 20%;
+  box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.29);
+}
+button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0, 255, 0);
+}
+#fname {
+  margin-bottom: 15%;
+}
+input {
+  width: auto;
+  height: 2rem;
+  border-radius: 6%;
+  color: (18, 17, 17);
+  /* font-style: italic; */
+  font-size: 25px;
+}
+
+input::placeholder {
+  width: auto;
+  height: 2rem;
+  border-radius: 6%;
+  color: rgba(18, 17, 17, 0.245);
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+}

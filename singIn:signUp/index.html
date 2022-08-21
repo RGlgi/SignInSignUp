@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link
+      rel="icon"
+      href="https://www.google.com/s2/favicons?domain=css-tricks.com"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="welcomeText"></div>
+    <div class="buttonsContainer">
+      <h1>
+        If you have an account Sign in. I not please Sign Up by clicking Sign Up
+        button below
+      </h1>
+      <button class="sign-Up">Sign Up</button>
+      <button class="sign-In">Sign In</button>
+    </div>
+
+    <div class="SignUp-container">
+      <form>
+        <label for="fname">First name:</label>
+        <input
+          type="text"
+          id="input-fname"
+          name="fname"
+          value=""
+          placeholder="Enter your Name"
+        /><br />
+        <label for="lname">Last name:</label>
+        <input
+          type="text"
+          id="input-lname"
+          name="lname"
+          value=""
+          placeholder="Enter your Lastname"
+        /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="input-pass1"
+          name="pass1"
+          value=""
+          placeholder="Set Password"
+        />
+      </form>
+      <button class="signUp">Sign Up</button>
+      <ul></ul>
+    </div>
+
+    <div class="SignIn-container">
+      <form>
+        <label for="fnameSI">First name:</label>
+        <input
+          type="text"
+          id="input-fnameSI"
+          placeholder="Enter your Name"
+        /><br />
+        <label for="lnameSI">Last name:</label>
+        <input
+          type="text"
+          id="input-lnameSI"
+          placeholder="Enter your Lastname"
+        /><br />
+        <label for="passwordSI">Password:</label>
+        <input type="password" id="input-pass1SI" placeholder="Your Password" />
+      </form>
+      <button class="signIn">Sign In</button>
+      <ul></ul>
+    </div>
+
+    <!-- script -->
+    <script src="dataKeep.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
